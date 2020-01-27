@@ -12,6 +12,23 @@ class List {
 
 	addCard(text) {
 		var card = new Card(text);
-		this.card.push(card);
+		this.cards.push(card);
 	}
 }
+
+class Board {
+	constructor() {
+		this.lists = [];
+	}
+
+	addList(text) {
+		var list = new List(text);
+		this.lists.push(list);
+	}
+}
+
+var board = new Board();
+board.addList('New list');
+board.lists[0].addCard('New card');
+
+console.log(board);
