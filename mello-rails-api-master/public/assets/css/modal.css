@@ -49,8 +49,8 @@
 	cursor: pointer;
 }
 
-.modal**header .modal**close:before {
-	content: '\2715';
+.modal__header .modal__close:before {
+	content: "\2715";
 }
 
 .modal__content {
