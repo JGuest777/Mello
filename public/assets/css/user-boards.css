@@ -56,11 +56,12 @@ nav button:focus {
 }
 
 .ui {
-	background: url('../images/bg2.jpg') no-repeat center center fixed;
+	/* background: url('../images/bg2.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: cover; */
+	background: crimson;
 	color: #000000;
 }
 
