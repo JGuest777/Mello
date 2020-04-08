@@ -56,8 +56,17 @@ nav button:focus {
 }
 
 .ui {
-	background: #ffffff;
+	background: url('../images/bg2.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	color: #000000;
+}
+
+.logo {
+	text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+	font-weight: bold;
 }
 
 header.welcome {
@@ -66,7 +75,11 @@ header.welcome {
 	margin-top: 10px;
 	text-align: center;
 	background-color: #edeff0;
+	opacity: .6;
 	padding: 60px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 header.welcome h1 {
@@ -105,6 +118,10 @@ button {
 	-webkit-appearance: none;
 }
 
+#logout:hover {
+	border-bottom: 1px solid #fff;
+}
+
 #new-board {
 	background: #61bd4f;
 	color: #fff;
@@ -117,10 +134,16 @@ button {
 	font-size: 1.3em;
 	cursor: pointer;
 	margin-bottom: 20px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 #new-board:hover {
-	background: #5aac44;
+	background: #4a863a;
+	-ms-transform: scale(1.05); /* IE 9 */
+	-webkit-transform: scale(1.05); /* Safari 3-8 */
+	transform: scale(1.05);
 }
 
 a.board-tile {
@@ -135,10 +158,16 @@ a.board-tile {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 a.board-tile:hover {
 	background-color: #03395a;
+	-ms-transform: scale(1.05); /* IE 9 */
+	-webkit-transform: scale(1.05); /* Safari 3-8 */
+	transform: scale(1.05);
 }
 
 @media (max-width: 649px) {
