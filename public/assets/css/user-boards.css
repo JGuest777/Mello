@@ -35,6 +35,10 @@ nav {
   padding: 10px;
   height: 45px;
   color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 nav a,
@@ -70,7 +74,6 @@ nav button:focus {
 .logo {
   text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
   font-weight: bold;
-  -webkit-text-stroke: 0.5px #61bd4f;
 }
 
 header.welcome {
