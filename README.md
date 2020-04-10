@@ -1,24 +1,32 @@
 # DeVize
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Full Stack mobile-friendly Trello clone built using only vanilla JavaScript, Ruby on Rails, HTML5 and CSS3.
 
-Things you may want to cover:
+<img src="images/index.PNG" width="434"> <img src="images/mobileIndex.PNG" width="434">
 
-* Ruby version
+## Be in charge of your Organization
 
-* System dependencies
+<img src="images/userboard.PNG" width="434"> <img src="images/mobileUserboard.PNG" width="434">
 
-* Configuration
+## Drag n' Drop Functionality
 
-* Database creation
+<img src="images/board.PNG" width="434"> <img src="images/mobileBoard.PNG" width="434">
 
-* Database initialization
+## Add Contributors
 
-* How to run the test suite
+<img src="images/contribute.PNG">
 
-* Services (job queues, cache servers, search engines, etc.)
+## Mobile-friendly
 
-* Deployment instructions
+<img src="images/css.PNG">
 
-* ...
+## Deployment
+
+* [https://devize.herokuapp.com/](https://devize.herokuapp.com/)
+
+## Tech
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) v: ES6
+* [Ruby](https://www.ruby-lang.org/en/documentation/) v: 2.5.3
+* [Rails](https://rubyonrails.org/) - v: 5.2.3
+* [postgreSQL](https://www.postgresql.org/) - Database
+* [Heroku](https://devcenter.heroku.com/) - Deployment
