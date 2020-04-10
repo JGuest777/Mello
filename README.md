@@ -22,11 +22,12 @@ A Full Stack mobile-friendly Trello clone built using only vanilla JavaScript, R
 
 ## Deployment
 
-* [https://devize.herokuapp.com/](https://devize.herokuapp.com/)
+- [https://devize.herokuapp.com/](https://devize.herokuapp.com/)
 
 ## Tech
-* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) v: ES6
-* [Ruby](https://www.ruby-lang.org/en/documentation/) v: 2.5.3
-* [Rails](https://rubyonrails.org/) - v: 5.2.3
-* [postgreSQL](https://www.postgresql.org/) - Database
-* [Heroku](https://devcenter.heroku.com/) - Deployment
+
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) v: ES6
+- [Ruby](https://www.ruby-lang.org/en/documentation/) v: 2.5.3
+- [Rails](https://rubyonrails.org/) - v: 5.2.2
+- [postgreSQL](https://www.postgresql.org/) - Database
+- [Heroku](https://devcenter.heroku.com/) - Deployment
