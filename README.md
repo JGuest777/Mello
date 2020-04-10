@@ -2,15 +2,15 @@
 
 A Full Stack mobile-friendly Trello clone built using only vanilla JavaScript, Ruby on Rails, HTML5 and CSS3.
 
-<img src="images/index.PNG"> 
+<img src="images/index.PNG">
 
 ## Be in charge of your Organization
 
-<img src="images/userboard.PNG"> 
+<img src="images/userboard.PNG">
 
 ## Drag n' Drop Functionality
 
-<img src="images/board.PNG"> 
+<img src="images/board.PNG">
 
 ## Add Contributors
 
@@ -18,10 +18,7 @@ A Full Stack mobile-friendly Trello clone built using only vanilla JavaScript, R
 
 ## Mobile-friendly
 
-<img src="images/css.PNG" width="217"><img src="images/mobileIndex.PNG" width="217"><img src="images/mobileUserboard.PNG" width="217"><img src="images/mobileBoard.PNG" width="217">
-
-
-
+<img src="images/mobileIndex.PNG" width="217"><img src="images/mobileUserboard.PNG" width="217"><img src="images/mobileBoard.PNG" width="217"><img src="images/css.PNG" width="217">
 
 ## Deployment
 
