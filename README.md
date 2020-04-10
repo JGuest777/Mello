@@ -31,3 +31,7 @@ A Full Stack mobile-friendly Trello clone built using only vanilla JavaScript, R
 - [Rails](https://rubyonrails.org/) - v: 5.2.2
 - [postgreSQL](https://www.postgresql.org/) - Database
 - [Heroku](https://devcenter.heroku.com/) - Deployment
+
+## Built with
+
+- [SortableJS](https://github.com/SortableJS/Sortable) - Drag n' Drop
