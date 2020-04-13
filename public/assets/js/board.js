@@ -137,7 +137,7 @@ function makeSortable() {
   Sortable.create($boardContainer[0], {
     filter: ".add",
     animation: 150,
-    delay: 10,
+    delay: 20,
     delayOnTouchOnly: true,
     touchStartThreshold: 15,
     ghostClass: "ghost",
