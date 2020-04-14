@@ -137,6 +137,10 @@ function makeSortable() {
   Sortable.create($boardContainer[0], {
     filter: ".add",
     animation: 150,
+    swapThreshold: 1,
+    delayOnTouchOnly: true,
+    delay: 100,
+    touchStartThreshold: 20,
     ghostClass: "ghost",
     easing: "cubic-bezier(0.785, 0.135, 0.15, 0.86)",
     onMove: function (event) {
@@ -166,6 +170,9 @@ function makeSortable() {
   $(".list > ul").each(function (index, element) {
     Sortable.create(element, {
       animation: 150,
+      delayOnTouchOnly: true,
+      delay: 100,
+      touchStartThreshold: 20,
       ghostClass: "ghost",
       easing: "cubic-bezier(0.785, 0.135, 0.15, 0.86)",
       group: "shared",
