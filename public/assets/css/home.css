@@ -58,6 +58,7 @@ header h1 {
   cursor: pointer;
   font-weight: bold;
   z-index: 1;
+  animation: shadow-pulse 1.2s infinite;
 }
 
 .auth-container {
@@ -145,4 +146,13 @@ button {
   line-height: inherit;
   -webkit-appearance: none;
   background-color: inherit;
+}
+
+@keyframes shadow-pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgb(29, 240, 29);
+  }
+  100% {
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
 }
