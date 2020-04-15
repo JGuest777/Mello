@@ -139,8 +139,8 @@ function makeSortable() {
     animation: 150,
     swapThreshold: 1,
     delayOnTouchOnly: true,
-    delay: 100,
-    touchStartThreshold: 20,
+    delay: 200,
+    touchStartThreshold: 5,
     ghostClass: "ghost",
     easing: "cubic-bezier(0.785, 0.135, 0.15, 0.86)",
     onMove: function (event) {
@@ -171,8 +171,8 @@ function makeSortable() {
     Sortable.create(element, {
       animation: 150,
       delayOnTouchOnly: true,
-      delay: 100,
-      touchStartThreshold: 20,
+      delay: 200,
+      touchStartThreshold: 5,
       ghostClass: "ghost",
       easing: "cubic-bezier(0.785, 0.135, 0.15, 0.86)",
       group: "shared",

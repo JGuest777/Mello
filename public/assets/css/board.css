@@ -151,6 +151,7 @@ header {
 .list.ghost button {
   background: #0067a3;
   color: #0067a3;
+  opacity: 0.3;
 }
 
 button {
