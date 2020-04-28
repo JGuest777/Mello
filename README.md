@@ -1,5 +1,7 @@
 # DeVize
 
+[jguest777@gmail.com](mailto:jguest777@gmail.com)
+
 A Full Stack mobile-friendly Trello clone built using only vanilla JavaScript, Ruby on Rails, HTML5 and CSS3.
 
 <img src="images/index.PNG">
